@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// Hooks
+// Hiiks we use with function components
+// Hooks are used to additional features and functionalities
+
+//UseState Hook is used for state management in function components
+import './App.css'
+import FunctionComponent from './FunctionComponent'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2>Hello React</h2>
+      <FunctionComponent />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
